@@ -4,7 +4,7 @@ const path = require("path"); // Modulni import qilishni unutmang
 
 const app = express();
 
-const distPath = path.join(__dirname, "dist");
+const distPath = path.join(__dirname, "..");
 
 app.use(express.static(distPath));
 
